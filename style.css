@@ -1,0 +1,463 @@
+* {
+
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+
+}
+
+.navbar {
+
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+
+.border {
+    border: 1.2px solid transparent;
+}
+
+.border:hover {
+    border: 1.2px solid white;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+/*box2*/
+
+.add-first {
+
+    color: #cccccc;
+    padding-left: 15px;
+    font-size: 0.8rem;
+
+}
+
+.add-sec {
+
+    font-size: 1rem;
+    padding-left: 3px;
+}
+
+/*box 3*/
+
+.nav-search {
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select {
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    padding-left: 5px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    background-color: #99958f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+
+.nav-search :hover {
+
+    border: 2px solid #86827e;
+
+}
+
+/* box4 */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+.nav-cart a {
+    color: white;
+}
+
+/* box 4 */
+
+.nav-cart i {
+    font-size: 30px;
+
+}
+
+.nav-cart {
+
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+
+/* panel */
+
+.panel {
+
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+.panel-all {
+    padding: 5px;
+}
+
+.panel-options p {
+
+    display: inline;
+    margin-left: 15px;
+    padding: 5px;
+
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.85rem;
+
+
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 5px;
+}
+
+
+/* hero section */
+
+.hero-section {
+
+    height: 350px;
+    background-size: cover;
+    background-image: url("hero_image.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 25px;
+}
+
+.hero-message a {
+
+    color: #007185;
+}
+
+/* shop section */
+
+.box {
+
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    background-color: white;
+
+}
+
+.shop-section {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+
+}
+
+.product h2{
+    font-size: 1.6vw;
+}
+
+.box-content {
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+
+    color: #007185;
+}
+
+.box-content img {
+    height: 35vh;
+    width: 20.7vw;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartPrice {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vh;
+    align-items: center;
+    
+
+}
+
+.view-details-button {
+    height: 4vh;
+    width: 4vw;
+    background-color: #385c89;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9vw;
+
+}
+
+.cartPrice p {
+    color: black;
+    font-weight: 800;
+    font-size: 1.11vw;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.add-to-cart-button {
+    height: 4vh;
+    width: 6vw;
+    background-color: #385c89;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9vw;
+
+
+
+
+}
+
+.add-to-cart-button:hover {
+    background-color: #6293ce;
+    ;
+}
+
+/*  footer */
+
+footer {
+    margin-top: 15px;
+
+}
+
+.foot-panel1 {
+
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+
+    background-color: #222f3d;
+    color: white;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    margin-top: 20px;
+}
+
+.foot-panel2 a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+   
+
+}
+
+.pages {
+    padding-top: 25px;
+
+}
+
+.copyright {
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+/* Modal overlay */
+.modal {
+    display: none;
+    /*Hidden by default */
+    position: fixed;
+    top: 40%;
+    left: 30%;
+
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #bce1eb;
+    padding: 20px;
+
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    /* text-align: center; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start
+}
+
+#product-description p {
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+
+}
+
+#product-name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Close button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add-to-cart-Button {
+    height: 4vh;
+    width: 6vw;
+    background-color: #385c89;
+    border-radius: 5px;
+    color: white;
+}
+
+.add-to-cart-Button:hover {
+    background-color: #6293ce;
+    ;
+}
+
+.ModalButton {
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#product-modal {
+    display: none;
+    /* Hidden by default */
+    /* other styling properties */
+}
+
+#product-modal.show {
+    display: flex;
+    /* Show modal when class 'show' is added */
+}
+
+/* Modal content styling */

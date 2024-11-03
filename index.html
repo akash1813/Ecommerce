@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEase</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+        
+            <div>
+                <h2>TechEase</h2>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Mobile</option>
+                    <option>Laptop</option>
+                </select>
+
+                <input placeholder="Search TechEase" class="search-input">
+
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="cart.html" class="cart-link">View Cart</a>
+            </div>
+
+
+        </div>
+
+        <div class="panel">
+
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+
+            <div class="panel-options">
+
+                <p class="border">Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+
+            <div class="panel-deals border">
+                Shop Deals in Electronics
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+    <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on TechEase.in. You can also shop on TechEase for millions of products with fast local delivery.
+                <a>Click here to go to TechEase.in</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <div class="product" data-id="1" data-name="Samsung S21 Ultra" data-price="150000" data-brand="Samsung"
+                    data-os="Android" data-ram="12" data-size="6.1">
+                    <h2>Samsung Galaxy S21</h2>
+                    <img src="box4_image.jpg" alt="Product 1">
+                    <div class="cartPrice">
+                        <p>Price: Rs.150000</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+                        <div id="product-modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close-button">&times;</span>
+                                <h2 id="product-name"></h2>
+
+
+
+
+                                <div id="product-description">
+                                    <p id="product-brand"></p>
+                                    <p id="product-price"></p>
+                                    <p id="product-os"></p>
+                                    <p id="product-ram"></p>
+                                    <p id="product-size"></p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <div class="product" data-id="2" data-name="Apple iPhone16 Black" data-price="80000" data-brand="Apple"
+                    data-os="iOS" data-ram="8" data-size="5.7">
+                    <h2>Apple iPhone16 Black</h2>
+                    <img src="615O-NFQKdL._SL1500_.jpg" alt="Apple iPhone16 Black">
+                    <div class="cartPrice">
+                        <p>Price: Rs.80000</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <div class="product" data-id="3" data-name="Oneplus Open Apex" data-price="150000" data-brand="OnePlus"
+                    data-os="Android" data-ram="12" data-size="6.3">
+                    <h2>
+                        Oneplus Open Apex </h2>
+                    <img src="81B4UqMfjeL._SL1500_.jpg" alt="One Plus">
+                    <div class="cartPrice">
+                        <p>Price: Rs.150000</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <div class="product" data-id="4" data-name="Samsung Galaxy Z Flip6" data-price="90000"
+                    data-brand="Samsung" data-os="Android" data-ram="12" data-size="5.9">
+                    <h2>Samsung Galaxy Z Flip6</h2>
+                    <img src="71c2wuq3r9L._SX679_.jpg" alt="Product 1">
+                    <div class="cartPrice">
+                        <p>Price: Rs.90000</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="box5 box">
+            <div class="box-content">
+                <div class="product" data-id="5" data-name="Nokia 1100" data-price="1100" data-brand="Nokia"
+                    data-os="S30" data-ram="1" data-size="1.4">
+                    <h2>Nokia 1100</h2>
+                    <img src="nokia-1110-00.jpg" alt="Product 1">
+                    <div class="cartPrice">
+                        <p>Price: Rs.1100</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <div class="product" data-id="6" data-name="BlackBerry 10" data-price="5000" data-brand="BlackBerry "
+                    data-os="BlackBerry OS" data-ram="2" data-size="4.2">
+                    <h2>BlackBerry 10</h2>
+                    <img src="Bb.jpg" alt="Product 1">
+                    <div class="cartPrice">
+                        <p>Price: Rs.5000</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <div class="product" data-id="7" data-name="
+                OPPO F27 5G " data-price="20999" data-brand="Oppo" data-os="Android" data-ram="8" data-size="6.67">
+                    <h2>
+                        OPPO F27 5G </h2>
+                    <img src="81CFCXH1tVL._SL1500_.jpg" alt="Product 7">
+                    <div class="cartPrice">
+                        <p>Price: Rs.20999</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <div class="product" data-id="8" data-name="Nokia Luna 8600 Slide" data-price="11999" data-brand="Nokia"
+                    data-os="S40" data-ram="0.28" data-size="2.0">
+                    <h2>Nokia Luna 8600</h2>
+                    <img src="shopping.jpg" alt="Product 1">
+                    <div class="cartPrice">
+                        <p>Price: Rs.11999</p>
+                        <button class="add-to-cart-button">Add to Cart</button>
+                        <button class="view-details-button">View</button> <!-- New button for modal -->
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer>
+
+        <div class="foot-panel1">
+            Back To Top
+        </div>
+
+        <div class="foot-panel2">
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blogs</a>
+                <a>About TechEase</a>
+                
+
+
+            </ul>
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blogs</a>
+                <a>About TechEase</a>
+               
+
+            </ul>
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blogs</a>
+                <a>About TechEase</a>
+               
+
+
+            </ul>
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blogs</a>
+                <a>About TechEase</a>
+               
+
+
+            </ul>
+
+
+        </div>
+
+        <div class="foot-panel3">
+
+            <h2>TechEase</h2>
+
+        </div>
+
+        <div class="foot-panel4">
+
+            <div class="pages">
+                <a>Conditions of use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+
+            </div>
+            <div class="copyright">
+                © 1996-2024, TechEase.in , Inc. or its affiliates
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
